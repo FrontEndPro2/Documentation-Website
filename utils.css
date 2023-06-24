@@ -1,0 +1,38 @@
+.nav1{
+display: flex;
+ 
+padding: 1.5vw;
+justify-content: space-between;
+
+}
+.nav2{
+display: flex;
+ 
+padding: .5vw;
+background-color: rgb(19, 18, 18);
+color: rgb(243, 235, 235);
+}
+.nav1-bars{
+    display: flex;
+
+}
+.navs1{
+    margin-left: 1.5vw;
+}
+.nav1-bars2{
+    display: flex;
+
+}
+.navs2{
+    margin-left: 2.5vw;
+   
+}
+.navs2:hover{
+    cursor: pointer;
+     color: gray;
+    
+}
+.navs1:hover{
+    cursor: pointer;
+}
+ 

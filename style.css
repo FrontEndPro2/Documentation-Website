@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 1.3vw;
+    font-family: 'Lato', sans-serif;
+}
+/* css for horizontal navbar */
+ 
+    
+    
+ 
+.navigation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.navs{
+    margin-right: 2vw;
+}
+a{
+    text-decoration: none;
+    color:  rgb(243, 235, 235);
+    font-size: 1vw;
+    font-weight: bold;
+}
+/* css for vertical navbar */
+.v-nav{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 13.5vw;
+   border: 2px solid black;
+   overflow: hidden;
+  
+    
+}
+ 
+.navbut{
+    width: 12.5vw;
+    padding: 1vw;
+    border: none;
+    background-color: rgb(227 213 213)
+
+}
+.navbut:hover{
+    background-color: rgb(86, 148, 234);
+    transition: .3s ease-in-out;
+}
+.text{
+    display: flex;
+    
+    
+    
+    
+     
+}
+#content{
+    margin-left: 3vw;
+    
+    width: 87%;
+    padding: 1vw;
+    
+}
+li{
+    margin: 1vw;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #4040de;
+    justify-content: center;
+    align-items: center;
+    padding: 2vw;
+   
+}
+ 
+h1,h2{
+    margin: 1vw;
+    text-decoration: underline;
+    font-size: 1.3vw;
+    
+}
+a:hover{
+    color: white;
+   
+}
+ 
+ 
